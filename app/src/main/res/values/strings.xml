@@ -2,4 +2,5 @@
     <string name="app_name">AboutMovies</string>
     <string name="movie_poster_image">Movie Poster Image</string>
     <string name="back">Back</string>
+    <string name="back_arrow">Back arrow</string>
 </resources>
