@@ -47,12 +47,24 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="18dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="56dp"
         android:contentDescription="@string/back_arrow"
         app:layout_constraintEnd_toStartOf="@id/text_back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arrow_back" />
+
+    <TextView
+        android:id="@+id/text_pg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="56dp"
+        android:text="@string/text_pg"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/image_movie_poster"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
