@@ -67,4 +67,17 @@
         app:layout_constraintBottom_toBottomOf="@+id/image_movie_poster"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <TextView
+        android:id="@+id/text_movie_name"
+        style="@style/movie_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/movie_name"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_pg" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
